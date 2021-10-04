@@ -41,7 +41,7 @@ export default {
 },
 saveUser(user) {
     return apiClient
-        .post('/auth/account', {
+        .post('/auth/user', {
             username: user.username,
             email: user.email,
             password: user.password
